@@ -36,13 +36,13 @@ $( document ).ready(function(){
     wins++; 
     $("#wins").text(wins);
     gameReset();
-  }
+}
 
     function failure(){
     alert ("You lose! You get NOTHING!");
     losses++;
     $("#losses").text(losses);
-    gameReset()
+    gameReset();
   }
 
     $(".emerald").on ("click", function(){
